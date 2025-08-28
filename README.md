@@ -15,59 +15,6 @@ This repository contains the source code for a full-stack, AI-powered e-commerce
 
 ---
 
-## Getting Started
-
-Follow these instructions to get a copy of the project up and running on your local machine.
-
-### Prerequisites
-
-- **Node.js & npm:** Ensure you have Node.js installed.
-- **MongoDB:** A local or cloud instance of MongoDB is required.
-
-### Installation
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [Your-Repo-URL]
-    cd [Your-Repo-Name]
-    ```
-2.  **Install server dependencies:**
-    ```bash
-    npm install
-    ```
-3.  **Install client dependencies:**
-    ```bash
-    cd client
-    npm install
-    ```
-4.  **Set up environment variables:**
-    Create a `.env` file in the root directory and the `client` directory, and add the following:
-
-    **Root `.env` (Server)**
-    ```
-    MONGO_URI=your_mongodb_connection_string
-    GOOGLE_CLIENT_ID=your_google_client_id
-    RAZORPAY_KEY_ID=your_razorpay_key_id
-    RAZORPAY_KEY_SECRET=your_razorpay_key_secret
-    JWT_SECRET=your_jwt_secret
-    ```
-
-    **`client/.env`**
-    ```
-    REACT_APP_GOOGLE_CLIENT_ID=your_google_client_id
-    REACT_APP_RAZORPAY_KEY_ID=your_razorpay_key_id
-    ```
-
-5.  **Run the application:**
-    * Start the server from the root directory:
-        ```bash
-        npm start
-        ```
-    * Start the client from the `client` directory:
-        ```bash
-        npm start
-        ```
-
 The website will now be running at `http://localhost:3000`.
 
 ---
@@ -75,3 +22,4 @@ The website will now be running at `http://localhost:3000`.
 ## License
 
 This project is licensed under the MIT License.
+
