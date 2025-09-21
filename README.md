@@ -1,31 +1,31 @@
 # AI-Powered MERN E-commerce Website
 
 ## Project Overview
-This project is an AI-powered e-commerce platform built using the MERN stack. The key feature is a voice-activated AI assistant that helps users navigate the site and find products. The website also includes a comprehensive admin panel for product and order management, secure user authentication, and a integrated payment gateway.
+This project presents an AI-powered e-commerce platform built on the MERN stack, distinguished by its core feature: a voice-activated AI assistant. This assistant streamlines user navigation and product discovery, providing a unique and intuitive shopping experience. The platform also includes a robust admin panel for comprehensive product and order management, secure user authentication, and an integrated payment gateway, ensuring a complete and professional e-commerce solution.
 
 ## Core Features
-- **AI Assistant**: Navigate the website and search for products using voice commands.
-- **User Authentication**: Secure sign-up and login with email/password or Google authentication.
-- **Admin Panel**: A dedicated section for administrators to manage products, track orders, and update order statuses.
-- **Product Management**: Admins can add, delete, and manage product details, including marking items as "best sellers."
-- **Product Filtering & Search**: Users can easily find products by filtering by category and sub-category or by using the search bar.
-- **Shopping Cart**: A fully functional cart that allows users to add, remove, and update product quantities.
-- **Payment Gateway**: Secure online payments are processed through Razorpay, supporting UPI payments.
-- **Order Tracking**: Users can view and track their orders with real-time status updates.
-- **Responsive Design**: The website is fully responsive, ensuring a seamless experience across all devices.
+- **AI Assistant**: Enables hands-free site navigation and product search via voice commands.
+- **User Authentication**: Implements secure user access through email/password and Google authentication.
+- **Admin Panel**: A centralized dashboard for administrators to manage inventory, track orders, and update fulfillment statuses.
+- **Product Management**: Provides full control over product listings, allowing admins to add, delete, and highlight items as "best sellers."
+- **Product Filtering & Search**: Facilitates efficient product discovery through category and sub-category filters, as well as a dynamic search bar.
+- **Shopping Cart**: A fully functional system for managing product selections, quantities, and removal.
+- **Payment Gateway**: Utilizes Razorpay to process secure online transactions, including UPI payments.
+- **Order Tracking**: Offers users real-time visibility into their order status.
+- **Responsive Design**: Ensures a consistent and optimized user experience across all devices.
 
 ## Technology Stack
 - **MERN Stack**:
-  - **MongoDB**: NoSQL database for storing product, user, and order data.
-  - **Express.js**: Backend web application framework for handling API routes.
-  - **React.js**: Front-end JavaScript library for building the user interface.
-  - **Node.js**: Server-side runtime environment.
+  - **MongoDB**: NoSQL database for flexible data storage.
+  - **Express.js**: Backend framework for building RESTful APIs.
+  - **React.js**: Frontend library for developing a dynamic user interface.
+  - **Node.js**: Server-side runtime environment for executing backend logic.
 - **Other Technologies**:
-  - **Vite**: Build tool for setting up the React project.
-  - **Tailwind CSS**: Utility-first CSS framework for styling.
-  - **Razorpay**: For payment processing.
-  - **Firebase**: Used for Google authentication.
-  - **Cloudinary**: Cloud-based service for image storage.
+  - **Vite**: A modern build tool for a fast development experience.
+  - **Tailwind CSS**: A utility-first CSS framework for efficient styling.
+  - **Razorpay**: The chosen platform for secure payment processing.
+  - **Firebase**: Integrated for streamlined Google authentication.
+  - **Cloudinary**: A cloud-based service for managing and optimizing images..
 
 ## File Structure
 - `admin/`: Code for the admin panel.
@@ -42,3 +42,9 @@ This project is an AI-powered e-commerce platform built using the MERN stack. Th
     - `context/`: State management for the application.
     - `pages/`: Individual website pages.
     - `utils/`: Utility functions.
+
+## Deployment
+The platform is professionally deployed on Render, with separate URLs for the user-facing and administrative interfaces, ensuring scalable and reliable access.
+
+- **Frontend**: https://ai-powered-e-commerce-frontendone.onrender.com
+- **Admin Panel**: https://ai-powered-e-commerce-admin.onrender.com
